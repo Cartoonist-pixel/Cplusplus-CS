@@ -1,3 +1,7 @@
+/* Josh Crum
+Period 3
+Week_1
+10 minutes*/    
 #include <iostream>
 using namespace std;
 
