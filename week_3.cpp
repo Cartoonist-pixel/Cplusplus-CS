@@ -17,7 +17,6 @@ int main() {
     // Close the file
     MyFile.close();
 
-    // --- Moved inside main() ---
     string myText;
 
     // Read from the text file
