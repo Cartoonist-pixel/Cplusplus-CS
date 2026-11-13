@@ -1,0 +1,17 @@
+#include <iostream>
+#include <thread>
+#include <chrono>
+
+int main() {
+int seconds = 60; // Countdown duration
+while (seconds > 0) {
+std::cout << "Time Remaining: " << seconds << " seconds\n";
+std::this_thread::sleep_for(std::chrono::seconds(1));
+--seconds;
+}
+std::cout << "Time's Up!\n";
+return 0;
+}
+
+
+
